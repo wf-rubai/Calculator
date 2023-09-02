@@ -160,10 +160,7 @@ public class App {
         b7.setForeground(Color.white);
         b8.setForeground(Color.white);
         b9.setForeground(Color.white);
-        // b9.setBackground(Color.red);
-        // b9.setOpaque(true);
-        // b9.setBorderPainted(false);
-        // bdlt.setBorderPainted(false);
+        
         bdlt.setBackground(new Color( 0, 0, 0, 30));
         bdlt.setOpaque(true);
 
