@@ -26,6 +26,8 @@ public class App {
         frame.setSize(210, 383);
         frame.getContentPane().setBackground(c2);
         frame.getColorModel();
+        frame.setLocation(610, 300);
+        frame.setResizable(false);
 
         JLabel l1 = new JLabel("History");
         l1.setBounds(210, 113, 190, 20);
@@ -160,7 +162,10 @@ public class App {
         b7.setForeground(Color.white);
         b8.setForeground(Color.white);
         b9.setForeground(Color.white);
-        
+        // b9.setBackground(Color.red);
+        // b9.setOpaque(true);
+        // b9.setBorderPainted(false);
+        // bdlt.setBorderPainted(false);
         bdlt.setBackground(new Color( 0, 0, 0, 30));
         bdlt.setOpaque(true);
 
