@@ -12,6 +12,7 @@ public class App {
     private static boolean sch = true;
     private static String s = new String("");
     private static String h = new String("");
+    
     public static void main(String[] args) {
 
         Color c1 = new Color(245, 157, 127);
