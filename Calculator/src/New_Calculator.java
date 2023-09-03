@@ -23,7 +23,7 @@ public class App {
         Font f3 = new Font(null, Font.BOLD, 20);
 
         JFrame frame = new JFrame( "...CALCULATOR...");
-        frame.setSize(210, 380);
+        frame.setSize(210, 385);
         frame.getContentPane().setBackground(c2);
         frame.getColorModel();
 
@@ -195,7 +195,7 @@ public class App {
                 hf4.setText(null);
                 hf5.setText(null);
                 cnt = 0;
-                frame.setSize(210, 380);
+                frame.setSize(210, 385);
                 bdlt.setBounds(170, 00, 40, 100);
             }
         });
@@ -432,7 +432,7 @@ public class App {
                     hf5.setText(h);
                 }
                 h = "";
-                frame.setSize(410, 380);
+                frame.setSize(410, 385);
                 bdlt.setBounds(370, 00, 40, 100);
 
             }
